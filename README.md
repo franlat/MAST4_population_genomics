@@ -1,3 +1,3 @@
-This repository was created to store the script(s) used to calculate the dNdS ratios in MAST-4 genes for the chapter 2 in Latorre F PhD thesis titled "Global population structure of a unicellular marine predator".
+This repository stores the script(s) used to calculate the dNdS ratios in MAST-4 genes for the preprint of Latorre F., "Global population structure of a unicellular marine predator."
 
-The script `dNdS.py`is a pythong script tailored for my specific needs. That is, it works when analyzing the exact same number of samples (82 metaG) and gff format. It could be use in other settings, but the script neeeds to be changed for that. 
+The script `dNdS.py ' is a Python script tailored to this research's needs. It works when analyzing the exact same number of samples (82 metaG) and gff format. However, the script must be changed for use in other settings. 
