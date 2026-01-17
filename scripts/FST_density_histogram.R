@@ -21,7 +21,7 @@ y_limits_h  <- c(0, 75)
 fst_thresholds <- c(0.05, 0.15, 0.25)
 fst_colors     <- c("green", "orange", "red")
 
-# Replace station labels (keeps your original convention)
+# Replace station labels
 station_pattern <- ".SUR.GGMM."
 station_repl    <- "RA"
 
@@ -68,7 +68,7 @@ read_fst_long <- function(fst_file, sample_ids, mast4_label) {
       MAST4  = mast4_label
     )
 
-  # Replace negative values and NAs (keeps original behavior)
+  # Replace negative values and NAs
   fst_df[fst_df < 0] <- 0
   fst_df[is.na(fst_df)] <- 0
 
