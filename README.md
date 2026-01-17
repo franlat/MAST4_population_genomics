@@ -3,8 +3,10 @@
 This repository contains the scripts and code used to analyze population genomic variation in MAST-4 species as described in:
 
 > Latorre F., Jaillon O., Sieracki M. E., Cruaud C., Massana R., and Logares R.
+>
 > **Global population structure of a unicellular marine predator**
-> (manuscript under review / preprint available at: https://doi.org/10.1101/2024.11.27.625609)
+> 
+> Manuscript under review / preprint available at: https://doi.org/10.1101/2024.11.27.625609
 
 The analyses are based on single-cell–derived reference genomes and surface ocean metagenomes from the _Tara_ Oceans expedition, and focus on genetic diversity, population structure, and signatures of selection across global MAST-4 populations.
 
