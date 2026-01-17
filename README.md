@@ -38,11 +38,13 @@ Contains small receips/tutorials following the Methods section in the Manuscript
 
 ### `scripts/`
 
-Contains custom scripts used for population genomic analyses, including:
+Contains custom scripts used for population genomic analyses and data processing, including:
 
 * [`dNdS.py`](,/scripts/dNdS.py) - Python script used to compute gene-level dN/dS ratios across stations and populations.
 * [`idfilter.pl`](./scripts/idfilter.pl) - Perl script used to filter BAM files by read identity and coverage.
-
+* [`FST_density_histogram.R`](./scripts/FST_density_histogram.R) - R script to process FST data into density histograms (Figure 1).
+* [`FST_dendrogram_map_permanova.R`](./scripts/FST_dendrogram_map_permanova.R) - R script to generate the FST dendrograms to infer populations (Figure 2). Also, plots the map to place them, and includes code to compute PERMANOVA with environmental data.
+* [`dNdS_gclust_funcpies.R`](./scripts/dNdS_gclust_funcpies.R) - R script to plot and compute gene cluster based on dN/dS ratios across samples (Figure 3) and the Pie Charts with eggNOG functional data (Figure S2). 
 
 ---
 
