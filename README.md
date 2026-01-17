@@ -97,9 +97,4 @@ For questions regarding the code or analyses, please contact:
 **Francisco Latorre**
 📧 [latorre@icm.csic.es]
 
----
-
-## License
-
-[Optional – add a license if desired]
 
