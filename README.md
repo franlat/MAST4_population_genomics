@@ -26,23 +26,23 @@ It is **not intended** to be a fully automated or plug-and-play pipeline. Some s
 
 ## Contents
 
+### `tutorials/`
+
+Contains small receips/tutorials following the Methods section in the Manuscript, including:
+
+* [Mapping](./tutorials/Mapping.md) - Mapping of Metagenomic reads against the reference genomes
+* [Relative Abundance](./tutorials/Abundance.md) - Computation of Relative Abundance values for the genomes across metagenomic samples
+* [Population Genomics analyses](./tutorials/Pogenom.md) - Variant Calling and the computation of population genomics parameters
+* [Variant effects](./tutorials/SnpEff.md) - Computation of the effects of the Variants predicted
+* [dNdS analysis](./tutorials/dNdS.md) - Computation of the dN/dS ratios for positive selection assessment
+
 ### `scripts/`
 
 Contains custom scripts used for population genomic analyses, including:
 
-* `dNdS.py`
-  Python script used to compute gene-level dN/dS ratios across stations and populations.
+* [`dNdS.py`](,/scripts/dNdS.py) - Python script used to compute gene-level dN/dS ratios across stations and populations.
+* [`idfilter.pl`](./scripts/idfilter.pl) - Perl script used to filter BAM files by read identity and coverage.
 
-  ⚠️ **Important notes**:
-
-  * The script is tailored to this study and assumes:
-
-    * A fixed number of samples (82 surface metagenomes)
-    * Specific GFF formatting
-    * Input files generated following the workflow described in the manuscript
-  * The script **must be adapted** for use with other datasets or experimental designs.
-
-Additional scripts for data processing and figure generation may be added as the repository evolves.
 
 ---
 
@@ -61,8 +61,11 @@ All other study data are included in the article, supporting information, or thi
 
 Analyses were performed using a combination of custom scripts and external software, including (but not limited to):
 
-* Python (custom scripts)
+* Python
+* Perl
 * Samtools
+* BWA
+* CoverM
 * FreeBayes
 * SnpEff
 * POGENOM
