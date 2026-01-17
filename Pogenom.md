@@ -1,4 +1,4 @@
-# Recipe: population genomics with **FreeBayes** + VCF filtering + **POGENOM**
+# Population genomics with **FreeBayes** + VCF filtering + **POGENOM**
 
 > Goal: starting from sample BAMs mapped to a given genome (e.g. MAST-4A/B/C/E), generate a **VCF** with **FreeBayes**, filter variants overlapping masked nucleotides (`N` in the reference), optionally compute quick SNV stats, and finally run **POGENOM**.
 >
